@@ -1,24 +1,110 @@
+/* Estilos gerais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: justify;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Navbar */
 .navbar {
-    padding: 1rem;
-    background-color: #333;
-    border-bottom: 1px solid #444;
-  }
-  
-  .navbar-brand {
-    font-size: 1.5rem;
-    font-weight: bold;
+    background-color: #343a40;
+    padding: 10px 20px;
     color: #fff;
-  }
-  
-  .navbar-nav {
-    margin-left: 20px;
-  }
-  
-  .nav-link {
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-logo {
+    font-size: 24px;
     color: #fff;
-    transition: color 0.2s ease;
-  }
-  
-  .nav-link:hover {
-    color: #ccc;
-  }
+    text-decoration: none;
+}
+
+.navbar-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.nav-button {
+    background-color: #495057;
+    border: none;
+    color: #fff;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.nav-button:hover {
+    background-color: #6c757d;
+}
+
+.navbar-alternar {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 200%;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+
+/* Sidebar */
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: -250px;
+    width: 250px;
+    height: 100%;
+    background-color: #343a40;
+    overflow-x: hidden;
+    transition: left 0.3s ease;
+    padding-top: 20px;
+}
+
+.sidebar-nav {
+    list-style-type: none;
+    padding: 0;
+}
+
+.nav-item {
+    margin: 10px 0;
+}
+
+.nav-link {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+}
+
+.nav-link:hover {
+    background-color: #495057;
+}
+
+.sidebar.show {
+    left: 0;
+}
+
+/* Carrossel */
+#img1{
+    float: left;
+    width: 50vw;
+    height: 50px;
+}
+#img2, #img3{
+    float: right;
+    width: 50vw;
+    height: 50vh;
+}
