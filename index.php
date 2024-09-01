@@ -15,7 +15,7 @@
     <div class="navbar-buttons">
       <button class="nav-button">O que escolher</button>
       <button class="nav-button">Sobre nós</button>
-      <button class="nav-button">Comunismo</button>
+      <button class="nav-button">Lorem, ipsum.</button>
       <div class="dropdown">
         <!-- Arrumar a cor do botão (o cinza fica depois de clicar, mesmo atualizando a página) -->
         <button class="nav-button dropdown-toggle">Marcas</button> 
@@ -41,12 +41,14 @@
     </div>
 
     <!-- Carrossel -->
+     <!-- AUMENTAR A QUALIDADE DA IMAGEM URGENTEMENTE -->
     <section>
     <div id="Carrossel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000">
       <div class="carousel-indicators">
         <button type="button" data-bs-target="#Carrossel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
         <button type="button" data-bs-target="#Carrossel" data-bs-slide-to="1" aria-label="Slide 2"></button>
         <button type="button" data-bs-target="#Carrossel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#Carrossel" data-bs-slide-to="3" aria-label="Slide 4"></button>
       </div>
       <div class="carousel-inner">
         <div class="carousel-item active">
@@ -65,6 +67,12 @@
           <img src="imgs/carrossel-3.jpg" class="d-block w-100 h-30" alt="Terceiro Slide">
           <div class="carousel-caption">
             <p class="text-center bg-dark text-light rounded-pill p-2 position-relative start-50 translate-middle-x bg-opacity-50">Melhores preços</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="imgs/carrossel-4.jpg" class="d-block w-100 h-30" alt="Quarto Slide">
+          <div class="carousel-caption">
+            <p class="text-center bg-dark text-light rounded-pill p-2 position-relative start-50 translate-middle-x bg-opacity-50">Lorem ipsum dolor sit.</p>
           </div>
         </div>
       </div>

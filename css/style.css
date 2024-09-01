@@ -134,13 +134,3 @@ body {
 }
 
 /* Carrossel, ajeitar o tamanho da imagem depois */
-#img1{
-    float: left;
-    width: 50vw;
-    height: 10px;
-}
-#img2, #img3{
-    float: right;
-    width: 50vw;
-    height: 20px;
-}
