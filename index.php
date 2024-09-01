@@ -10,19 +10,28 @@
 <body>
     <!-- Navbar -->
     <nav class="navbar">
-        <div class="container">
-            <a class="navbar-logo" href="#">Logo</a>
-            <div class="navbar-buttons">
-                <button class="nav-button">Samsung</button>
-                <button class="nav-button">Apple</button>
-                <button class="nav-button">Motorola</button>
-                <button class="nav-button">Xiaomi</button>
-            </div>
-            <button class="navbar-alternar">☰</button>
+  <div class="container">
+    <a class="navbar-logo" href="#">Logo</a>
+    <div class="navbar-buttons">
+      <button class="nav-button">O que escolher</button>
+      <button class="nav-button">Sobre nós</button>
+      <button class="nav-button">Comunismo</button>
+      <div class="dropdown">
+        <!-- Arrumar a cor do botão (o cinza fica depois de clicar, mesmo atualizando a página) -->
+        <button class="nav-button dropdown-toggle">Marcas</button> 
+        <div class="dropdown-menu">
+          <a href="#" class="dropdown-item">Samsung</a>
+          <a href="#" class="dropdown-item">Apple</a>
+          <a href="#" class="dropdown-item">Motorola</a>
+          <a href="#" class="dropdown-item">Xiaomi</a>
         </div>
-    </nav>
+      </div>
+    </div>
+    <button class="navbar-alternar">☰</button>
+  </div>
+</nav>
 
-    <!-- Barra lateral -->
+    <!-- Barra lateral => sem uso por enquanton-->
     <div class="sidebar" id="sidebar">
         <ul class="sidebar-nav">
             <li class="nav-item"><a class="nav-link" href="#">Link 1</a></li>
@@ -43,19 +52,19 @@
         <div class="carousel-item active">
           <img src="imgs/carrossel-1.jpg" class="d-block w-100 h-30" alt="Primeiro Slide">
           <div class="carousel-caption">
-            <p class="text-center bg-dark text-light rounded-pill p-2 position-relative start-50 translate-middle-x bg-opacity-50">Praia da Laje</p>
+            <p class="text-center bg-dark text-light rounded-pill p-2 position-relative start-50 translate-middle-x bg-opacity-50">O melhor e-commerce de Cananeia</p>
           </div>
         </div>
         <div class="carousel-item">
           <img src="imgs/carrossel-2.jpg" class="d-block w-100 h-30" alt="Segundo Slide">
           <div class="carousel-caption">
-            <p class="text-center bg-dark text-light rounded-pill p-2 position-relative start-50 translate-middle-x bg-opacity-50">Pereirinha</p>
+            <p class="text-center bg-dark text-light rounded-pill p-2 position-relative start-50 translate-middle-x bg-opacity-50">muitos modelos para escolher</p>
           </div>
         </div>
         <div class="carousel-item">
           <img src="imgs/carrossel-3.jpg" class="d-block w-100 h-30" alt="Terceiro Slide">
           <div class="carousel-caption">
-            <p class="text-center bg-dark text-light rounded-pill p-2 position-relative start-50 translate-middle-x bg-opacity-50">Marco do Itacuruçá</p>
+            <p class="text-center bg-dark text-light rounded-pill p-2 position-relative start-50 translate-middle-x bg-opacity-50">Melhores preços</p>
           </div>
         </div>
       </div>
@@ -72,7 +81,9 @@
     <br>
     <br>
     <br>
+
     <!-- Qual a escolha certa para você? -->
+     <!-- Já ta certinho, só colocar o texto e as imagens -->
     <h1 class="text-center">Qual a melhor escolha para você?</h1>
     <section id="tipo-escolha" class="container my-5">
     
