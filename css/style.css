@@ -132,5 +132,14 @@ body {
 .sidebar.show {
     left: 0;
 }
+.p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
 
-/* Carrossel, ajeitar o tamanho da imagem depois */
+.footer {
+    background-color: #7a7063; /* Cor de fundo do rodapé */
+    color: #fff; /* Cor do texto */
+    text-align: center; /* Centraliza o texto */
+    padding: 1rem; /* Espaçamento interno */
+}
+
