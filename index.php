@@ -147,11 +147,12 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     <br><br><br>
 
     <!-- Seção de Produtos -->
+     <!-- Fazer tipo uma barra de rolagem para poder ver os modelos um do lado do outro -->
     <h1 class="text-center">Qual a melhor escolha para você?</h1>
     <section id="tipo-escolha" class="container my-5">
         <div class="row">
             <!-- Modelo de Entrada -->
-            <div class="col-md-4 mb-4">
+            <div class="col-md-4">
                 <div class="card h-100 border">
                     <img src="imgs/img-ossada-baleia.jpg" class="card-img-top img-fluid" alt="entrada">
                     <div class="card-body">
@@ -161,26 +162,23 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                 </div>
             </div>
             <!-- Modelo Intermediário -->
-            <div class="col-md-4 mb-4">
+            <div class="col-md-4 ">
                 <div class="card h-100 border">
                     <img src="imgs/carrossel-.jpg" class="card-img-top img-fluid" alt="intermediario">
                     <div class="card-body">
                         <h5 class="card-title text-primary">Modelos Intermediários</h5>
                         <p class="card-text">Os celulares intermediários representam um equilíbrio entre custo e desempenho. Eles oferecem uma performance superior aos modelos de entrada, com processadores mais avançados e maior capacidade de memória RAM, o que melhora a eficiência e a capacidade de multitarefa. A tela é geralmente de maior tamanho e melhor resolução, proporcionando uma experiência visual aprimorada. As câmeras são de qualidade superior, com recursos adicionais que permitem melhores fotos e vídeos. O armazenamento é mais amplo, frequentemente com opções de expansão. Esses modelos são ideais para quem busca um desempenho sólido e recursos adicionais sem pagar o preço dos modelos premium.</p>
-                       
-                        </form>
                     </div>
                 </div>
             </div>
             <!-- Modelo Premium -->
-            <div class="col-md-4 mb-4">
+            <div class="col-md-4">
                 <div class="card h-100 border">
                     <img src="imgs/carrossel-3.jpg" class="card-img-top img-fluid" alt="premium">
                     <div class="card-body">
                         <h5 class="card-title text-primary">Modelos Premium</h5>
                         <p class="card-text">Os celulares premium, também conhecidos como "top de linha", são os modelos mais avançados do mercado, equipados com processadores de última geração e grande memória RAM para desempenho excepcional em tarefas intensivas e jogos. Suas telas oferecem alta resolução e tecnologia avançada, garantindo imagens nítidas. As câmeras são de qualidade superior, com múltiplas lentes para captura em alta definição. O armazenamento interno é generoso, geralmente sem suporte para expansão externa. Incluem recursos como carregamento sem fio e resistência à água, refletindo seu alto investimento e qualidade superior.
 </p>
-                        </form>
                     </div>
                 </div>
             </div>

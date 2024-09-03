@@ -12,7 +12,7 @@ body {
 
 /* Navbar */
 .navbar {
-    background-color: #343a40;
+    background-color: #b9aa94;
     padding: 10px 20px;
     color: #fff;
 }
@@ -143,3 +143,7 @@ body {
     padding: 1rem; /* Espaçamento interno */
 }
 
+#tipo-escolha{
+    overflow-x: scroll;
+    max-height: 500px;
+}
